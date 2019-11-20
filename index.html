@@ -35,17 +35,46 @@
                 <button id = "add-player">Add the Player</button>
             </div>
 
+            <div id="player-show">
+                <h2>Look at a Player:</h2>
+                <p>
+                    <label>Player ID:</label>
+                    <input id="player-show-id">
+                </p>
+                <button id="show-spec-player">Show Song</button>
+                <div id="showSpecPlayer"></div>
+            </div>
+
             <div id = "player-edit">
                 <h2>Want to Change a Player?</h2>
+                <p>
                 <label>Player's ID:</label>
-                <input id= "player-id">
+                <input id= "player-edit-id">
+                </p>
+                
+                <p><label>Player's Name:</label><input id= "change-name"></p>
+                <p><label>Player's Hometown:</label><input id= "change-hometown"></p>
+                <p><label>Player's Age:</label><input id= "change-age"></p>
+                <p><label>Player's Team:</label><input id= "change-team"></p>
+                <p><label>Player's Years Played:</label><input id= "change-years"></p>
                 <button id= "edit">Change Now!</button> 
+            </div>
+
+            <div id = "player-create">
+                <h2>Want to Create a Player?</h2>
+                
+                <p><label>Player's Name:</label><input id= "new-name"></p>
+                <p><label>Player's Hometown:</label><input id= "new-hometown"></p>
+                <p><label>Player's Age:</label><input id= "new-age"></p>
+                <p><label>Player's Team:</label><input id= "new-team"></p>
+                <p><label>Player's Years Played:</label><input id= "new-years"></p>
+                <button id= "create">Create Now!</button> 
             </div>
 
             <div id = "player-deletion">
                 <h2>Delete a Workout</h2>
                 <label>Player's ID:</label>
-                <input id= "player-id">
+                <input id= "player-delete-id">
                 <button id= "delete">Delete Now!</button> 
             </div>
 
